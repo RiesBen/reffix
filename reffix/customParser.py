@@ -1,13 +1,13 @@
 from bibtexparser.customization import journal, type as bibtexType, author #homogenize_latex_encoding
 
-def build_Parser():
+def build_standardParser():
     myParser = BibTexParser()
 
     def rulez(record):
         record = bibtexType(record)
         record = capitalize_keys(record)
 
-        record = homogenize_latex_encoding(record)
+        #record = homogenize_latex_encoding(record)
         record = check_article_fields(record)
         record = check_book_fields(record)
         record = check_incollection_fields(record)
