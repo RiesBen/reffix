@@ -1,6 +1,7 @@
 # reffix
 
-This is a small repository that handles BibTex files for latex code projects. It homogenizes the entries and merges multiple subfiles.
+This small repository handles BibTex files for latex code projects. 
+It homogenizes the entries of a BibTex database, can merge multiple BibTex databases or find duplicated entries.
 
 ## Install package
 Required packages can be installed with anaconda from the file: 
