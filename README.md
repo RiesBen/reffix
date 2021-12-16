@@ -1,5 +1,14 @@
 # reffix
 
-This is a small repository, that handles bibtex files for latex code projects.
+This is a small repository that handles BibTex files for latex code projects. It homogenizes the entries and merges multiple subfiles.
 
-required packages can be found in the conda_env.yaml file.
+## Install package
+Required packages can be installed with anaconda from the file: 
+environment.yml
+
+    conda env create -n reffix -f environment.yml
+  
+
+## Acknowledgments
+I want to mention the BibTeX parser project (https://github.com/sciunto-org/python-bibtexparser), which is the foundation of this repository.
+(docs:  https://bibtexparser.readthedocs.io/en/master/)
